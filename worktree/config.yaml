@@ -1,0 +1,6 @@
+schema: worktree
+
+# Name of the directory under worktree/ that holds the main (default) checkout.
+# The workflow scripts read this to locate your project's main worktree.
+# Create it once with:  git clone <repo-url> worktree/<main>
+main: main

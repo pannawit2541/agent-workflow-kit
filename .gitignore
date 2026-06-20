@@ -1,0 +1,13 @@
+.DS_Store
+
+# shared/ is a local reference drop-zone — keep only the README
+/shared/*
+!/shared/README.md
+
+# Worktrees are local checkouts — keep only the config
+/worktree/*
+!/worktree/config.yaml
+
+# OpenSpec planning is local only — keep the config, ignore changes/specs
+/openspec/changes/
+/openspec/specs/
